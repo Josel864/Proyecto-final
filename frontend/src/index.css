@@ -9,8 +9,8 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #f3f4f6;           /* gris claro */
-  color: #111827;                 /* gris oscuro */
+  background: #f3f4f6;          
+  color: #111827;               
 }
 
 /* Contenedor principal de la app */
@@ -139,8 +139,8 @@ body {
    ========================= */
 
 .page-container {
-  max-width: 1000px;         /* ancho cómodo */
-  margin: 1.5rem auto;       /* centrado horizontal y margen arriba/abajo */
+  max-width: 1000px;         
+  margin: 1.5rem auto;       
   padding: 0 1rem;
 }
 

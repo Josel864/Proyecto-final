@@ -61,7 +61,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
 
-          {/* Rutas protegidas (ajusta según tu PrivateRoute si lo usas) */}
+          {/* Rutas protegidas */}
           <Route path="/" element={<DashboardPage />} />
           <Route path="/materias" element={<MateriasPage />} />
           <Route path="/tareas" element={<TareasPage />} />

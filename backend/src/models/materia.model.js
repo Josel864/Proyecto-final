@@ -87,7 +87,7 @@ const Materia = {
       id_usuario
     ]);
 
-    return result.affectedRows; // 1 si actualizó, 0 si no encontró
+    return result.affectedRows;
   },
 
   async eliminarLogico(id_materia, id_usuario) {

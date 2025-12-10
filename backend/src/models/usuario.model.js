@@ -13,7 +13,7 @@ const Usuario = {
   async buscarPorEmail(email) {
     const sql = `SELECT * FROM usuarios WHERE email = ? LIMIT 1`;
     const [rows] = await pool.query(sql, [email]);
-    return rows[0]; // undefined si no existe
+    return rows[0];
   },
 
   async buscarPorId(id_usuario) {

@@ -16,7 +16,7 @@ function LoginPage() {
 
     try {
       await login(email, password);
-      navigate('/'); // ir al dashboard
+      navigate('/');
     } catch (error) {
       console.error(error);
       const msg = error.response?.data?.mensaje || 'Error al iniciar sesión';

@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 function authMiddleware(req, res, next) {
-  // Normalmente el token viene en el header: Authorization: Bearer <token>
+
   const authHeader = req.headers['authorization'];
 
   if (!authHeader) {

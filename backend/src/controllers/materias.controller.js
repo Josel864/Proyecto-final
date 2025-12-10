@@ -3,7 +3,7 @@ const Materia = require('../models/materia.model');
 // POST /api/materias
 async function crearMateria(req, res) {
   try {
-    const id_usuario = req.user.id_usuario; // viene del token
+    const id_usuario = req.user.id_usuario;
     const { nombre, descripcion, semestre, anio, color } = req.body;
 
     if (!nombre) {

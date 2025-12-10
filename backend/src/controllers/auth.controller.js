@@ -13,7 +13,6 @@ async function registrarLog({ id_usuario = null, ip, navegador, evento }) {
 }
 
 function obtenerIp(req) {
-  // Si en algún momento usas proxy, puedes agregar: req.headers['x-forwarded-for']
   return req.ip || req.connection.remoteAddress || null;
 }
 

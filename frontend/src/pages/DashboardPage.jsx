@@ -51,7 +51,7 @@ function DashboardPage() {
   <div className="page-container">
     <h2 className="page-title">Inicio</h2>
 
-    {/* 🔵 Banner superior */}
+    {/* Banner superior */}
     <div className="dashboard-banner">
       <div>
         <h1 style={{ margin: 0 }}>Bienvenido a UniPlanner 🎓</h1>

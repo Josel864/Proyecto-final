@@ -2,7 +2,7 @@ import api from './api';
 
 export async function descargarReporteResumen() {
   const response = await api.get('/reportes/resumen', {
-    responseType: 'blob', // importante para archivos
+    responseType: 'blob',
   });
-  return response.data; // Blob
+  return response.data;
 }
